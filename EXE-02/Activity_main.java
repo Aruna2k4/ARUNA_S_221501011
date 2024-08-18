@@ -1,0 +1,30 @@
+?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+<android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/aaa">
+<TextView android:id="@+id/textView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="ARUNA"
+android:textSize="25sp"
+android:textColor="@android:color/white" />
+<Button android:id="@+id/changeColorButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Change Color"
+android:layout_marginTop="16dp"
+android:backgroundTint="@android:color/white"
+android:textColor="@android:color/black" />
+<Button android:id="@+id/changeFontButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Change Font"
+android:layout_marginTop="16dp"
+android:backgroundTint="@android:color/white"
+android:textColor="@android:color/black" />
+</LinearLayout></RelativeLayout>
